@@ -19,7 +19,8 @@
     margin: 0;
     scroll-behavior: smooth;
     padding: 0;
-    font-family: "Varela Round";
+    /* font-family: "Varela Round"; */
+    font-family: 'Poppins', sans-serif;
 }
 /** spaces **/
 
@@ -511,4 +512,42 @@
 }
 a {
   display: inline;
+}
+/* modifed*/
+/* header */
+.hero {
+	padding: 2rem;
+  text-align:center;
+  align-items:center;
+  /* margin-right:50px; */
+  
+}
+
+/* .hero .hero-img {
+border-radius:50%;
+overflow:hidden;
+} */
+
+.hero .hero-heading {
+	text-align: center;
+	padding-top: 1rem;
+	color: #000000;
+}
+
+.hero .hero-heading .heading-inverted {
+	color: #3b82f6;
+}
+.section {
+	text-align: center;
+  align-items:center;
+}
+.section {
+	padding: 2rem 2rem 3rem;
+}
+
+.section P {
+	text-align: justify;
+}
+.section {
+	text-align: center;
 }
