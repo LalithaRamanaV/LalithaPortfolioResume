@@ -8,10 +8,11 @@
     --offwhite: #F9FAFB;
     --light-blue:#EFF6FF;
     /* --baby-pink: #49A9FE; */
-    --baby-pink:#3b82f6;
+    --baby-pink:#6589f9;
     --purple: #3b82f6;
     /* --purple: #49A9FE; */
     --pink:#3b82f6;
+    /* --pink:#0096c7; */
     /* #EE6C8A */
 }
 
@@ -44,7 +45,7 @@
     padding: 14px;
     font-size: 16px;
     color: white;
-    box-shadow: 0px 6px 18px -5px var(--primary-color);
+    /* box-shadow: 0px 6px 18px -5px var(--primary-color); */
     text-align:center;  
     cursor: pointer;
     margin: 1rem;
@@ -58,7 +59,7 @@
     padding: 14px;
     font-size: 16px;
     color: var(--purple);
-    box-shadow: 0px 6px 18px -5px var(--dark-gray);
+    /* box-shadow: 0px 6px 18px -5px var(--dark-gray); */
     text-align:center;  
     cursor: pointer;
     box-shadow: 0px 6px 18px -5px #c8d1e2;
@@ -67,8 +68,8 @@
 
 .link-pink{
     background-color: var(--baby-pink) ;
-    box-shadow: 0px 6px 18px -5px var(--baby-pink);
-}
+     box-shadow: 0px 6px 18px -5px var(--baby-pink);
+} 
 
 .link-purple{
     background-color: var(--purple) ;
@@ -182,9 +183,10 @@
 .know-more{
     margin-left:0;
     padding: 0.75rem 2rem 0.75rem 2rem ;
-    background: var(--pink);
-    box-shadow: 0px 6px 18px -5px var(--pink);
+    /* background: var(--pink); */
+    /* box-shadow: 0px 6px 18px -5px var(--pink); */
     display: none;
+    /* background-color:#48cae4; */
 }
 
 /** Sections **/
@@ -230,7 +232,7 @@
 }
 
 .tech-card{
-    /* border-radius: 1rem; */
+   border-radius: 1rem; 
     padding:1rem;
     background: white;
     width: 4rem;
@@ -238,11 +240,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} 
+
 
 .tech-icon{
-    width:3rem;
-    height:3rem;
+    width:2rem;
+    height:2rem;
     margin: auto;
 }
 
@@ -260,6 +263,8 @@
 
 .work-card{
     /* border: 1px solid black; */
+    /* background-color:#caf0f8; */
+    
     box-shadow: 0 1px 25px rgba(146,161,176,.15);
     margin:1rem;
     padding: 1rem;
@@ -288,6 +293,15 @@
     text-align: justify;
     font-size: 1rem;
     color:var(--dark-gray)
+}
+.work-subtitle-1{
+    margin:1rem;
+    text-align: justify;
+    font-size: 1.2rem;
+    color:var(--dark-gray);
+    margin-top:15px;
+    margin-bottom:25px;
+    
 }
 
 .work-image{
